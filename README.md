@@ -20,7 +20,7 @@ UpacharMitra is a web-based hospital appointment booking system integrated with 
 - **Backend**: Django, Django REST Framework
 - **Database**: SQLite
 - **AI/ML**: Hugging Face Transformers (BERT-based model)
-- **Model Repo**: [bijenadhewaju/medical-specialty-selector](https://huggingface.co/bijenadhewaju/medical-specialty-selector)
+- **Model Repo**: [bijenadhewaju/distilbert_medical_speciality](https://huggingface.co/bijenadhewaju/distilbert_medical_speciality)
 
 ---
 
