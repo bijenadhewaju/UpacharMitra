@@ -138,7 +138,7 @@ const HospitalAppointment = () => {
                     <h1 className="text-3xl font-bold text-gray-900">{doctor.name}</h1>
 
                     {/* ❗ KEY FIX: Display the specialty name from the object */}
-                    <p className="text-xl text-blue-600 font-semibold mt-1">
+                    <p className="text-xl text-green-600 font-semibold mt-1">
                         {doctor.specialty ? doctor.specialty.name : 'General Medicine'}
                     </p>
 
@@ -188,7 +188,7 @@ const HospitalAppointment = () => {
                                 </select>
                             </div>
 
-                            <button type="submit" disabled={!selectedDay || !selectedTime || !selectedHospitalId} className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition disabled:bg-gray-400">
+                            <button type="submit" disabled={!selectedDay || !selectedTime || !selectedHospitalId} className="w-full bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition disabled:bg-gray-400">
                                 Book and Proceed to Pay
                             </button>
                         </form>

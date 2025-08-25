@@ -61,7 +61,7 @@ const PaymentSuccess = () => {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen">
-            <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"></div>
+            <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-green-500"></div>
             <h1 className="text-2xl font-bold mt-4">Verifying Payment...</h1>
             <p>Please wait while we confirm your transaction.</p>
         </div>

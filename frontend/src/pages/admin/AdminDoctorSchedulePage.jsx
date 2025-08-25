@@ -105,7 +105,7 @@ const AdminDoctorSchedulePage = () => {
                 </div>
             </div>
 
-            <button type="submit" className="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700">
+            <button type="submit" className="w-full bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700">
                 Save Schedule
             </button>
         </form>

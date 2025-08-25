@@ -133,7 +133,7 @@ const AdminDoctorsPage = () => {
                             {unassignedDoctors.map(doc => <option key={doc.id} value={doc.id}>{doc.name} - ({doc.specialty})</option>)}
                         </select>
                         <input type="number" name="opd_charge" onChange={handleExistingDoctorChange} placeholder="OPD Charge for Your Hospital" className="w-full p-2 border rounded" required />
-                        <button type="submit" className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Add to Hospital</button>
+                        <button type="submit" className="w-full bg-green-600 text-white font-bold py-2 px-4 rounded hover:bg-green-700">Add to Hospital</button>
                     </form>
                 </div>
             </div>

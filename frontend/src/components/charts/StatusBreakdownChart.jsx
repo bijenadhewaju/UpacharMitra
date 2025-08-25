@@ -11,8 +11,8 @@ const StatusBreakdownChart = ({ chartData }) => {
             label: 'Count',
             data: chartData.map(item => item.count),
             backgroundColor: {
-                'booked': '#60a5fa', // Blue
-                'completed': '#34d399', // Green
+                'booked': '#32CD32', // lime green
+                'completed': '#34d399', // Light Green
                 'canceled': '#f87171', // Red
                 'pending': '#facc15' // Yellow
             },

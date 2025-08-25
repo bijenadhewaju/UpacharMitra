@@ -58,7 +58,7 @@ const Speciality = () => {
                             alt={`${specialty.name} icon`} 
                             className="h-16 w-16 mx-auto mb-4 object-contain"
                         />
-                        <h3 className="text-lg font-semibold text-gray-800 group-hover:text-blue-600">
+                        <h3 className="text-lg font-semibold text-gray-800 group-hover:text-green-600">
                             {specialty.name}
                         </h3>
                     </Link>

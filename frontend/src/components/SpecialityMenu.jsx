@@ -33,7 +33,7 @@ const SpecialityMenu = () => {
     const visibleSpecialities = specialties.slice(0, 6);
 
     return (
-        <div id='speciality' className='w-full bg-gradient-to-b from-gray-50 to-blue-50 py-20 px-4'>
+        <div id='speciality' className='w-full bg-gradient-to-b from-gray-50 to-green-50 py-20 px-4'>
             <div className='max-w-7xl mx-auto flex flex-col items-center gap-4 text-center'>
                 
                 {/* --- Section Header --- */}
@@ -58,7 +58,7 @@ const SpecialityMenu = () => {
                                 src={getIconUrl(item.icon)} 
                                 alt={`${item.name} icon`} 
                             />
-                            <p className='text-center font-semibold text-gray-700 group-hover:text-blue-600 transition-colors duration-300'>{item.name}</p>
+                            <p className='text-center font-semibold text-gray-700 group-hover:text-green-600 transition-colors duration-300'>{item.name}</p>
                         </Link>
                     ))}
                 </div>
@@ -69,7 +69,7 @@ const SpecialityMenu = () => {
                         navigate('/speciality');
                         window.scrollTo(0, 0);
                     }}
-                    className='mt-8 px-8 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105'
+                    className='mt-8 px-8 py-3 bg-green-600 text-white font-semibold rounded-full shadow-lg hover:bg-green-700 transition-all duration-300 transform hover:scale-105'
                 >
                     See All Specialities
                 </button>

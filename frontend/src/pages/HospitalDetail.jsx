@@ -51,9 +51,9 @@ const HospitalDetail = () => {
                 <div className="container mx-auto px-4">
                     <nav className="flex space-x-8">
                         {/* ... (Your existing Link tabs for About, All Doctors, Specialities) ... */}
-                        <Link to="" relative="path" className={`py-4 px-1 border-b-2 font-medium text-sm ${isActive(`/hospital/${id}`) ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500'}`}>About</Link>
-                        <Link to="doctors" relative="path" className={`py-4 px-1 border-b-2 font-medium text-sm ${isActive('doctors') ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500'}`}>All Doctors</Link>
-                        <Link to="speciality" relative="path" className={`py-4 px-1 border-b-2 font-medium text-sm ${isActive('speciality') ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500'}`}>Specialities</Link>
+                        <Link to="" relative="path" className={`py-4 px-1 border-b-2 font-medium text-sm ${isActive(`/hospital/${id}`) ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500'}`}>About</Link>
+                        <Link to="doctors" relative="path" className={`py-4 px-1 border-b-2 font-medium text-sm ${isActive('doctors') ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500'}`}>All Doctors</Link>
+                        <Link to="speciality" relative="path" className={`py-4 px-1 border-b-2 font-medium text-sm ${isActive('speciality') ? 'border-green-500 text-green-600' : 'border-transparent text-gray-500'}`}>Specialities</Link>
                     </nav>
                 </div>
             </div>

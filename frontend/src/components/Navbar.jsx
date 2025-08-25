@@ -53,8 +53,8 @@ const Navbar = () => {
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-4 font-medium text-gray-700">
-                    <NavLink to="/" className={navLinkClass}>Hosptals</NavLink>
-                    <NavLink to="/hospitals" className={navLinkClass}>Home</NavLink>
+                    <NavLink to="/" className={navLinkClass}>HOME</NavLink>
+                    <NavLink to="/hospitals" className={navLinkClass}>HOSPITALS</NavLink>
                     <NavLink to="/doctors" className={navLinkClass}>DOCTORS</NavLink>
                     <NavLink to="/speciality" className={navLinkClass}>SPECIALITIES</NavLink>
                     <NavLink to="/about" className={navLinkClass}>ABOUT</NavLink>
